@@ -27,7 +27,7 @@ const Users = () => {
         setUsers([])
         toast.error('Failed to fetch user list')  // Set an empty array in case of error
       })
-  }, [])
+  }, [users])
   useEffect(() => {
 
   }, [users])

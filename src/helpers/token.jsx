@@ -10,3 +10,9 @@ export const config = {
         'Authorization': `Bearer ${getToken()}`
     }
 }
+export const configImg = {
+    headers: {
+        'Authorization': `Bearer ${getToken()}`,
+        'Content-Type': 'multipart/form-data'
+    }
+}
